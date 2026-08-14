@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Análise - Solo Leveling</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body class="solo-leveling-analise-page">
+
+    <div class="overlay"></div>
+
+    <!-- Cabeçalho -->
+    <header>
+
+        <button id="darkMode">🌙</button>
+
+    </header>
+
+    <!-- Botão voltar -->
+    <div class="menu">
+
+        <button onclick="window.location.href='analises.html'">
+            ANÁLISES
+        </button>
+
+    </div>
+
+    <!-- Conteúdo principal -->
+    <div class="conteudo-anime">
+
+        <!-- ESQUERDA -->
+        <div class="resumo-temporada">
+
+            <h2>Análise de Solo Leveling</h2>
+
+            <p>
+                Solo Leveling é um anime que chama bastante atenção principalmente
+                pela evolução de Sung Jinwoo. No começo da história, ele é conhecido
+                como um dos caçadores mais fracos, mas tudo muda quando ele recebe
+                acesso ao misterioso Sistema.
+            </p>
+
+            <p>
+                A partir daí, Jinwoo começa uma evolução constante. Diferente de
+                outros personagens, ele possui a capacidade de ficar cada vez mais
+                forte através de missões, batalhas e treinamentos.
+            </p>
+
+            <p>
+                Uma das melhores partes do anime é justamente acompanhar essa
+                transformação. Aos poucos, Jinwoo deixa de ser alguém que precisa
+                ser protegido e passa a enfrentar inimigos que antes seriam
+                completamente impossíveis para ele.
+            </p>
+
+            <p>
+                As batalhas também são um dos maiores pontos positivos. A animação
+                consegue deixar os confrontos muito mais impactantes, principalmente
+                quando Jinwoo começa a utilizar suas sombras e suas diferentes
+                habilidades.
+            </p>
+
+            <p>
+                O sistema de progressão também combina muito com a proposta da obra.
+                Ver novos equipamentos, habilidades e soldados sendo adicionados ao
+                exército de Jinwoo faz com que cada nova conquista tenha bastante
+                impacto.
+            </p>
+
+            <p>
+                Outro ponto interessante é a forma como o anime apresenta o mundo dos
+                caçadores. Existem diferentes níveis de poder, guildas, portais e
+                monstros, criando um universo que vai ficando cada vez maior conforme
+                a história avança.
+            </p>
+
+            <p>
+                Mesmo com tudo isso, alguns personagens poderiam receber mais
+                desenvolvimento. Como o foco é muito grande em Jinwoo, vários
+                personagens acabam ficando em segundo plano durante boa parte da
+                história.
+            </p>
+
+            <p>
+                No geral, Solo Leveling consegue entregar exatamente aquilo que
+                promete: evolução constante, batalhas muito boas e um protagonista
+                extremamente poderoso. É uma obra que prende bastante principalmente
+                para quem gosta de ação e personagens que começam por baixo e vão
+                conquistando seu espaço.
+            </p>
+
+        </div>
+
+        <!-- LADO DIREITO -->
+        <div class="lado-direito">
+
+            <!-- OPINIÃO -->
+            <div class="opiniao">
+
+                <h2>Minha opinião</h2>
+
+                <p>
+                    Mano, eu acho Solo Leveling muito brabo. O Jinwoo evoluindo do
+                    nada até virar um monstro é muito satisfatório de assistir, e
+                    as lutas são simplesmente absurdas. A parte das sombras também
+                    é muito foda e deixa tudo ainda mais interessante.
+                </p>
+
+                <p>
+                    Pra mim, o maior problema é que alguns personagens poderiam ter
+                    mais destaque, mas mesmo assim é um anime que eu assistiria
+                    tranquilamente de novo. 
+                </p>
+
+            </div>
+
+            <!-- FOTOS -->
+            <div class="fotos">
+
+                <h2>Fotos</h2>
+
+                <img
+                    src="https://criticalhits.com.br/wp-content/uploads/2025/02/4f678-17070276386263-1920-1280x721.webp"
+                    alt="Solo Leveling"
+                >
+
+                <img
+                    src="https://uploads.jovemnerd.com.br/wp-content/uploads/2024/04/sololeveling_001__0j0fq5-760x428.jpg"
+                    alt="Solo Leveling"
+                >
+
+            </div>
+
+        </div>
+
+    </div>
+
+   <!-- COMENTÁRIOS -->
+
+<div class="comentarios">
+
+    <h2>💬 Comentários</h2>
+
+    <div class="form-comentario">
+
+        <input
+            type="text"
+            id="nomeComentario"
+            placeholder="Seu nome..."
+            maxlength="30"
+        >
+
+        <textarea
+            id="textoComentario"
+            placeholder="Digite seu comentário..."
+            maxlength="500"
+        ></textarea>
+
+        <button onclick="enviarComentario()">
+            Enviar
+        </button>
+
+    </div>
+
+    <div id="listaComentarios"></div>
+
+</div>
+
+<!-- MENSAGEM -->
+
+<div id="mensagem">
+
+    <h2>✅ Comentário enviado!</h2>
+
+    <p id="contador"></p>
+
+</div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

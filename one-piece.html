@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Análise - One Piece</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body class="one-piece-analise-page">
+
+    <div class="overlay"></div>
+
+    <!-- Cabeçalho -->
+    <header>
+
+        <button id="darkMode">🌙</button>
+
+    </header>
+
+    <!-- Botão voltar -->
+    <div class="menu">
+
+        <button onclick="window.location.href='analises.html'">
+            ANÁLISES
+        </button>
+
+    </div>
+
+    <!-- Conteúdo principal -->
+    <div class="conteudo-anime">
+
+        <!-- ESQUERDA -->
+        <div class="resumo-temporada">
+
+            <h2>Análise de One Piece</h2>
+
+            <p>
+                One Piece é uma obra que conseguiu construir um dos mundos mais
+                gigantes e detalhados dos animes. A história acompanha Monkey D.
+                Luffy e sua tripulação em uma jornada pelo mar em busca do lendário
+                One Piece.
+            </p>
+
+            <p>
+                Uma das maiores qualidades da obra é justamente a construção do
+                mundo. Cada ilha possui sua própria história, personagens, culturas
+                e conflitos, fazendo com que a aventura nunca pareça exatamente a
+                mesma.
+            </p>
+
+            <p>
+                Os personagens também são um dos maiores pontos fortes. Luffy, Zoro,
+                Nami, Usopp, Sanji, Chopper, Robin, Franky, Brook e Jinbe possuem
+                personalidades completamente diferentes, mas juntos formam uma
+                tripulação que funciona muito bem.
+            </p>
+
+            <p>
+                Outro ponto muito importante são os mistérios. One Piece apresenta
+                várias perguntas ao longo da história e muitas delas permanecem sem
+                resposta durante anos. Isso faz com que pequenos detalhes apresentados
+                muito antes possam acabar se tornando importantes posteriormente.
+            </p>
+
+            <p>
+                As lutas também evoluem bastante durante a obra. Luffy começa usando
+                técnicas relativamente simples e, conforme a história avança, passa
+                por diversas evoluções e descobre novas formas de utilizar seus
+                poderes.
+            </p>
+
+            <p>
+                Além das batalhas, One Piece consegue trabalhar bastante com temas
+                como liberdade, amizade, sonhos, injustiça e opressão. Muitos dos
+                arcos possuem histórias próprias, mas também acabam contribuindo
+                para a história maior.
+            </p>
+
+            <p>
+                Uma das coisas mais impressionantes é a quantidade de acontecimentos
+                que são conectados ao longo da história. Personagens e eventos que
+                pareciam não ter muita importância podem voltar muitos episódios
+                depois e ganhar um significado completamente diferente.
+            </p>
+
+            <p>
+                Apesar de ser uma obra excelente, o anime possui um ritmo que pode
+                ser bastante lento em alguns momentos. A quantidade enorme de
+                episódios também pode assustar quem está começando a assistir.
+            </p>
+
+            <p>
+                Mesmo assim, One Piece continua sendo uma das maiores obras do gênero
+                e consegue manter uma enorme quantidade de fãs justamente por causa
+                de seu mundo, seus personagens e dos mistérios que ainda precisam ser
+                descobertos.
+            </p>
+
+        </div>
+
+        <!-- LADO DIREITO -->
+        <div class="lado-direito">
+
+            <!-- OPINIÃO -->
+            <div class="opiniao">
+
+                <h2>Minha opinião</h2>
+
+                <p>
+                    Mano, One Piece é simplesmente absurdo. O que mais gosto é que
+                    parece que o autor já tinha pensado em várias coisas lá no começo
+                    que só foram fazer sentido muito tempo depois. A tripulação do
+                    Luffy também é muito boa, cada personagem tem seu jeito e acaba
+                    tendo momentos muito marcantes.
+                </p>
+
+                <p>
+                    O único problema pra mim é o ritmo do anime, que às vezes fica
+                    meio enrolado. Mas quando a história começa a ficar séria, é
+                    difícil parar de assistir. 
+                </p>
+
+            </div>
+
+            <!-- FOTOS -->
+            <div class="fotos">
+
+                <h2>Fotos</h2>
+
+                <img
+                    src="https://wallpapers.com/images/featured/one-piece-cool-jo1cjbe06e9iewqh.jpg"
+                    alt="One Piece"
+                >
+
+                <img
+                    src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiGqiHWdn8y_GKEI98DG-Lkw1ixiL_GnMIp71C_8tpOOeC4cFrdvqb4VCJr27PaPiRJ5qdibwPD3ZUoVOrampxSKoJKScjwum-6IZgn5DE5-j0KWrJF9GKhLSV95OwdEAYrc6dSUV09mH7ZJZNby1RAzZVMDnguUOV8ZMk_z90gPeF5LgE-Jwx5X_7DrsA1/s1000/livro%20de%20memorias%20guia%20one%20piece.png"
+                    alt="One Piece"
+                >
+
+            </div>
+
+        </div>
+
+    </div>
+
+<!-- COMENTÁRIOS -->
+
+<div class="comentarios">
+
+    <h2>💬 Comentários</h2>
+
+    <div class="form-comentario">
+
+        <input
+            type="text"
+            id="nomeComentario"
+            placeholder="Seu nome..."
+            maxlength="30"
+        >
+
+        <textarea
+            id="textoComentario"
+            placeholder="Digite seu comentário..."
+            maxlength="500"
+        ></textarea>
+
+        <button onclick="enviarComentario()">
+            Enviar
+        </button>
+
+    </div>
+
+    <div id="listaComentarios"></div>
+
+</div>
+
+<!-- MENSAGEM -->
+
+<div id="mensagem">
+
+    <h2>✅ Comentário enviado!</h2>
+
+    <p id="contador"></p>
+
+</div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

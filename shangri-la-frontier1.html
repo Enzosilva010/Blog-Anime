@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Shangri-La Frontier</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body class="shangri-la-page1">
+
+    <div class="overlay"></div>
+
+    <header>
+
+        <button id="darkMode">🌙</button>
+
+    </header>
+
+    <div class="menu">
+
+        <button onclick="window.location.href='novidades.html'">
+            NOVIDADES
+        </button>
+
+    </div>
+
+    <div class="conteudo-anime">
+
+        <!-- ESQUERDA -->
+        <div class="resumo-temporada">
+
+            <h2>Análise Shangri-La Frontier</h2>
+
+           <p>
+    Na primeira temporada, conhecemos Rakuro Hizutome, um jogador que gosta de
+    jogos extremamente ruins e difíceis. Depois de experimentar Shangri-La
+    Frontier, um dos maiores jogos de realidade virtual do mundo, ele decide
+    começar uma nova aventura usando seu personagem Sunraku.
+</p>
+
+<p>
+    Mesmo sendo novo no jogo, Sunraku rapidamente começa a se destacar por sua
+    habilidade e pela maneira completamente diferente de jogar. Ele explora
+    diversas regiões, enfrenta monstros poderosos e descobre que Shangri-La
+    Frontier possui muitos segredos escondidos.
+</p>
+
+<p>
+    Durante sua jornada, Sunraku conhece outros jogadores importantes, como
+    Arthur Pencilgon e OiKatzo. Os três acabam formando uma equipe e enfrentam
+    desafios cada vez maiores dentro do jogo.
+</p>
+
+<p>
+    Um dos maiores acontecimentos da temporada é o encontro de Sunraku com
+    Lycagon, um dos Seven Colossi, criaturas extremamente poderosas que possuem
+    uma importância enorme dentro do mundo de Shangri-La Frontier.
+</p>
+
+<p>
+    A primeira temporada serve principalmente para apresentar o mundo do jogo,
+    seus personagens e as mecânicas que tornam Shangri-La Frontier tão
+    diferente de outros jogos.
+</p>
+    
+
+        </div>
+
+        <!-- LADO DIREITO -->
+        <div class="lado-direito">
+
+            <div class="opiniao">
+
+                <h2>Minha opinião</h2>
+
+                <p>
+                    Na minha opinião, Shangri-La Frontier é um daqueles animes que
+                    conseguem ser muito divertidos sem precisar ficar levando tudo tão
+                    a sério. As lutas são muito boas, o mundo do jogo é enorme e o
+                    Sunraku é um protagonista muito diferente dos que a gente costuma
+                    ver.
+                </p>
+
+                <p>
+                    Eu também gosto bastante da dinâmica entre Sunraku, Pencilgon e
+                    OiKatzo. Cada um tem um jeito completamente diferente de jogar,
+                    então quando os três estão juntos sempre acaba acontecendo alguma
+                    coisa engraçada ou inesperada. Espero que a 3ª temporada continue
+                    mantendo esse equilíbrio entre comédia, exploração e batalhas.
+                </p>
+
+            </div>
+
+            <!-- FOTOS -->
+            <div class="fotos">
+
+                <h2>Fotos</h2>
+
+                <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtBBSsf48bsx-UgPkB8kkDmDI8SzzxLVXFBXWNNaSvUQDzaKsQhRwTH60L&s=10"
+                    alt="Shangri-La Frontier"
+                >
+
+                <img
+                    src="https://m.media-amazon.com/images/M/MV5BYmNjODIzZWItYTg2Ni00NDNhLTgxNzktZTY0NGE0MmQwZWEzXkEyXkFqcGc@._V1_.jpg"
+                    alt="Shangri-La Frontier"
+                >
+
+            </div>
+
+        </div>
+
+    </div>
+
+   <!-- COMENTÁRIOS -->
+
+<div class="comentarios">
+
+    <h2>💬 Comentários</h2>
+
+    <div class="form-comentario">
+
+        <input
+            type="text"
+            id="nomeComentario"
+            placeholder="Seu nome..."
+            maxlength="30"
+        >
+
+        <textarea
+            id="textoComentario"
+            placeholder="Digite seu comentário..."
+            maxlength="500"
+        ></textarea>
+
+        <button onclick="enviarComentario()">
+            Enviar
+        </button>
+
+    </div>
+
+    <div id="listaComentarios"></div>
+
+</div>
+
+<!-- MENSAGEM -->
+
+<div id="mensagem">
+
+    <h2>✅ Comentário enviado!</h2>
+
+    <p id="contador"></p>
+
+</div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

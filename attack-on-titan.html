@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Análise - Attack on Titan</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body class="attack-on-titan-analise-page">
+
+    <div class="overlay"></div>
+
+    <!-- Cabeçalho -->
+    <header>
+
+        <button id="darkMode">🌙</button>
+
+    </header>
+
+    <!-- Botão voltar -->
+    <div class="menu">
+
+        <button onclick="window.location.href='analises.html'">
+            ANÁLISES
+        </button>
+
+    </div>
+
+    <!-- Conteúdo principal -->
+    <div class="conteudo-anime">
+
+        <!-- ESQUERDA -->
+        <div class="resumo-temporada">
+
+            <h2>Análise de Attack on Titan</h2>
+
+            <p>
+                Attack on Titan apresenta um mundo onde a humanidade vive protegida
+                dentro de enormes muralhas para se defender dos Titãs. A tranquilidade
+                muda completamente quando o Titã Colossal aparece e rompe a proteção,
+                fazendo Eren, Mikasa e Armin entrarem em uma batalha que vai muito
+                além do que imaginavam. 
+            </p>
+
+            <p>
+                No começo, a história parece ser principalmente sobre humanos tentando
+                sobreviver aos Titãs. Porém, conforme os acontecimentos avançam,
+                descobrimos que existe muito mais por trás daquele mundo e que os
+                próprios Titãs estão ligados a segredos que mudam completamente a
+                visão dos personagens sobre sua realidade.
+            </p>
+
+            <p>
+                Um dos maiores pontos fortes da obra é justamente a quantidade de
+                mistérios. Informações apresentadas no começo acabam ganhando um
+                significado muito maior posteriormente, fazendo com que vários
+                acontecimentos possam ser vistos de outra maneira.
+            </p>
+
+            <p>
+                Os personagens também possuem bastante desenvolvimento. Eren,
+                Mikasa e Armin começam como jovens que querem sobreviver e conhecer
+                o mundo exterior, mas os acontecimentos fazem cada um deles mudar
+                bastante ao longo da história.
+            </p>
+
+            <p>
+                A terceira temporada aumenta ainda mais a importância dos mistérios
+                políticos e da história por trás das muralhas. O Exército de
+                Exploração descobre informações importantes sobre o governo e sobre
+                a verdadeira família real, enquanto também se prepara para recuperar
+                a Muralha Maria.
+            </p>
+
+            <p>
+                Depois disso, a história muda completamente de escala. A verdade
+                sobre o mundo além das muralhas é revelada e os personagens
+                descobrem que existe uma realidade muito maior do que imaginavam.
+                Eren passa então por uma nova fase, enquanto o conflito entre
+                diferentes povos e ideologias começa a tomar conta da história.
+                
+            </p>
+
+            <p>
+                A obra também trabalha bastante com temas como liberdade, vingança,
+                escolhas, preconceito e o ciclo de violência. Isso faz com que a
+                história deixe de ser apenas uma luta contra monstros e passe a
+                discutir os motivos pelos quais diferentes grupos entram em conflito.
+                
+            </p>
+
+            <p>
+                A temporada final conclui a história principal e mostra o resultado
+                das decisões tomadas pelos personagens ao longo da série. A versão
+                final do anime foi lançada em partes e especiais entre 2020 e 2023.
+               
+            </p>
+
+            <p>
+                No geral, Attack on Titan se destaca pela construção do mundo,
+                pelos mistérios, pelo desenvolvimento dos personagens e pela forma
+                como consegue transformar completamente a história conforme novos
+                segredos são revelados.
+            </p>
+
+        </div>
+
+        <!-- LADO DIREITO -->
+        <div class="lado-direito">
+
+            <!-- OPINIÃO -->
+            <div class="opiniao">
+
+                <h2>Minha opinião</h2>
+
+                <p>
+                        Attack on Titan em minha opinião é o melhor anime de todos! Onde sua historia é perfeita, sem nenhum furo na historia
+                        a ideia do anime é perfeita, o desenvolvimento dos personagens é perfeito, tipo a historia tem coisas muito surpriendentes
+                        que ninguém esperava, e isso é muito bom. Os personagens que aparecem no meio da historia ou a ideologia são perfeitas também, 
+                        tipo, tudo desse anime é perfeito heheh, facilmente veria outras vezes.
+                </p>
+
+                <p>
+                      E tipo o anime é tão bom que mesmo que não tenha uma boa animação da pra relevar já que o anime é perfeito.
+                </p>
+
+            </div>
+
+            <!-- FOTOS -->
+            <div class="fotos">
+
+                <h2>Fotos</h2>
+
+                <img
+                    src="https://criticalhits.com.br/wp-content/uploads/2021/07/attack-on-titan-sketch-1270507.jpeg"
+                    alt="Attack on Titan"
+                >
+
+                <img
+                    src="https://t.ctcdn.com.br/QalMaQS2yKRLKuxaiBF3LWsC9Sg=/1200x675/smart/i549553.jpeg"
+                    alt="Attack on Titan"
+                >
+
+            </div>
+
+        </div>
+
+    </div>
+
+ <!-- COMENTÁRIOS -->
+
+<div class="comentarios">
+
+    <h2>💬 Comentários</h2>
+
+    <div class="form-comentario">
+
+        <input
+            type="text"
+            id="nomeComentario"
+            placeholder="Seu nome..."
+            maxlength="30"
+        >
+
+        <textarea
+            id="textoComentario"
+            placeholder="Digite seu comentário..."
+            maxlength="500"
+        ></textarea>
+
+        <button onclick="enviarComentario()">
+            Enviar
+        </button>
+
+    </div>
+
+    <div id="listaComentarios"></div>
+
+</div>
+
+<!-- MENSAGEM -->
+
+<div id="mensagem">
+
+    <h2>✅ Comentário enviado!</h2>
+
+    <p id="contador"></p>
+
+</div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

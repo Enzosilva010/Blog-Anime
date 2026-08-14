@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Análise - Demon Slayer</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body class="demon-slayer-analise-page">
+
+    <div class="overlay"></div>
+
+    <!-- Cabeçalho -->
+    <header>
+
+        <button id="darkMode">🌙</button>
+
+    </header>
+
+    <!-- Botão voltar -->
+    <div class="menu">
+
+        <button onclick="window.location.href='analises.html'">
+            ANÁLISES
+        </button>
+
+    </div>
+
+    <!-- Conteúdo principal -->
+    <div class="conteudo-anime">
+
+        <!-- ESQUERDA -->
+        <div class="resumo-temporada">
+
+            <h2>Análise de Demon Slayer</h2>
+
+            <p>
+                Demon Slayer acompanha Tanjiro Kamado, um jovem que tem sua vida
+                completamente transformada depois que sua família é atacada por
+                demônios. Sua irmã Nezuko sobrevive, mas acaba se transformando
+                em um demônio.
+            </p>
+
+            <p>
+                Determinado a encontrar uma forma de transformar Nezuko novamente
+                em humana, Tanjiro entra para o Corpo de Extermínio de Demônios.
+                A partir daí, começa uma jornada cheia de treinamentos, batalhas
+                e encontros com diversos outros caçadores.
+            </p>
+
+            <p>
+                Um dos maiores destaques da obra é a relação entre Tanjiro e
+                Nezuko. Mesmo depois da transformação, Tanjiro continua acreditando
+                que sua irmã pode voltar a ser humana e faz de tudo para protegê-la.
+            </p>
+
+            <p>
+                Ao longo da história, Tanjiro conhece personagens como Zenitsu
+                Agatsuma e Inosuke Hashibira. Apesar de possuírem personalidades
+                completamente diferentes, os três acabam formando uma equipe muito
+                importante durante a jornada.
+            </p>
+
+            <p>
+                As batalhas são outro grande destaque de Demon Slayer. Os
+                personagens utilizam diferentes estilos de Respiração, cada um
+                possuindo técnicas próprias e visualmente marcantes.
+            </p>
+
+            <p>
+                Os Hashiras também possuem grande importância na história. Cada
+                um deles representa um dos maiores níveis de força dentro do Corpo
+                de Extermínio e possui uma personalidade e um estilo de combate
+                completamente diferentes.
+            </p>
+
+            <p>
+                A história também apresenta os Doze Kizuki, um grupo formado pelos
+                demônios mais poderosos ligados a Muzan Kibutsuji. Esses inimigos
+                fazem com que Tanjiro e seus aliados precisem evoluir constantemente.
+            </p>
+
+            <p>
+                Conforme a história avança, os confrontos ficam cada vez maiores.
+                Os personagens precisam enfrentar inimigos extremamente poderosos,
+                enquanto descobrem mais sobre Muzan, os demônios e as origens das
+                técnicas utilizadas pelos caçadores.
+            </p>
+
+            <p>
+                O arco do Castelo Infinito representa uma das fases mais importantes
+                da história. A batalha contra Muzan e os demônios coloca praticamente
+                todos os principais personagens em uma situação extremamente perigosa.
+            </p>
+
+            <p>
+                A obra se destaca principalmente pela animação, pelas trilhas
+                sonoras, pelas batalhas e pelo desenvolvimento emocional de seus
+                personagens. A adaptação conseguiu transformar vários momentos
+                importantes do mangá em cenas extremamente marcantes.
+            </p>
+
+            <p>
+                No geral, Demon Slayer consegue combinar ação, aventura, emoção e
+                desenvolvimento de personagens em uma história bastante direta,
+                sendo uma das obras que mais se destacaram entre os animes de sua
+                geração.
+            </p>
+
+        </div>
+
+        <!-- LADO DIREITO -->
+        <div class="lado-direito">
+
+            <!-- OPINIÃO -->
+            <div class="opiniao">
+
+                <h2>Minha opinião</h2>
+
+                <p>
+                       Demon Slayer meu anime favorito hehe, tipo a historia não é lá aquelas coisas porque ela é focada apenas em um tema
+                       basícamente, e acaba até puxando um pouco a historia, mas tirando isso o design dos personagens são perfeitos, as lutas 
+                       são muito boas também e linda, pena que muita gente morre, nãoooo.
+                </p>
+
+                <p>
+                       Demon Slayer é o anime com a melhor animação, muito boa, chega a ser uma perfeição isso de tão lindo, sensacional.
+                </p>
+
+            </div>
+
+            <!-- FOTOS -->
+            <div class="fotos">
+
+                <h2>Fotos</h2>
+
+                <img
+                    src="https://sm.ign.com/t/ign_it/screenshot/default/kv_qsv5.1280.jpg"
+                    alt="Demon Slayer"
+                >
+
+                <img
+                    src="https://preview.redd.it/i-just-watched-demon-slayer-as-my-very-first-anime-and-i-v0-l83sakiusdpf1.jpeg?auto=webp&s=18335a695591c72e834ff1fbeebdc79c0fa4f1dc"
+                    alt="Demon Slayer"
+                >
+
+            </div>
+
+        </div>
+
+    </div>
+
+   <!-- COMENTÁRIOS -->
+
+<div class="comentarios">
+
+    <h2>💬 Comentários</h2>
+
+    <div class="form-comentario">
+
+        <input
+            type="text"
+            id="nomeComentario"
+            placeholder="Seu nome..."
+            maxlength="30"
+        >
+
+        <textarea
+            id="textoComentario"
+            placeholder="Digite seu comentário..."
+            maxlength="500"
+        ></textarea>
+
+        <button onclick="enviarComentario()">
+            Enviar
+        </button>
+
+    </div>
+
+    <div id="listaComentarios"></div>
+
+</div>
+
+<!-- MENSAGEM -->
+
+<div id="mensagem">
+
+    <h2>✅ Comentário enviado!</h2>
+
+    <p id="contador"></p>
+
+</div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Análise - Bleach</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body class="bleach-analise-page">
+
+    <div class="overlay"></div>
+
+    <!-- Cabeçalho -->
+    <header>
+
+        <button id="darkMode">🌙</button>
+
+    </header>
+
+    <!-- Botão voltar -->
+    <div class="menu">
+
+        <button onclick="window.location.href='analises.html'">
+            ANÁLISES
+        </button>
+
+    </div>
+
+    <!-- Conteúdo principal -->
+    <div class="conteudo-anime">
+
+        <!-- ESQUERDA -->
+        <div class="resumo-temporada">
+
+            <h2>Análise de Bleach</h2>
+
+            <p>
+                Bleach acompanha Ichigo Kurosaki, um adolescente que consegue ver
+                espíritos e acaba recebendo os poderes de uma Shinigami chamada
+                Rukia Kuchiki. A partir disso, sua vida muda completamente e ele
+                passa a enfrentar criaturas conhecidas como Hollows. :contentReference[oaicite:1]{index=1}
+            </p>
+
+            <p>
+                Uma das maiores qualidades de Bleach é o seu universo. A história
+                apresenta diferentes mundos, organizações e personagens, como a
+                Sociedade das Almas, os Shinigamis, os Hollows e os Arrancars.
+            </p>
+
+            <p>
+                Os personagens também possuem bastante destaque. Ichigo, Rukia,
+                Renji, Byakuya, Kenpachi, Hitsugaya e vários outros possuem
+                personalidades e estilos de luta muito diferentes.
+            </p>
+
+            <p>
+                As batalhas são outro grande destaque. Cada personagem possui
+                habilidades próprias e diferentes formas de evolução, deixando os
+                confrontos bastante variados.
+            </p>
+
+            <p>
+                Um dos elementos mais marcantes da obra são as Zanpakutō. As
+                espadas dos Shinigamis possuem poderes próprios e podem evoluir
+                através de diferentes formas, como a Shikai e a Bankai.
+            </p>
+
+            <p>
+                A história também possui diversos mistérios envolvendo Ichigo.
+                Conforme a obra avança, novas informações sobre sua família,
+                seus poderes e sua verdadeira natureza começam a aparecer.
+            </p>
+
+            <p>
+                Depois da série original, Bleach retorna para adaptar o arco final
+                do mangá: A Guerra Sangrenta dos Mil Anos. Esse arco coloca Ichigo
+                e os Shinigamis contra os Quincy liderados por Yhwach. :contentReference[oaicite:2]{index=2}
+            </p>
+
+            <p>
+                Essa fase aumenta bastante a escala da história e revela segredos
+                que estavam escondidos desde o começo. Vários personagens também
+                recebem novos poderes e momentos importantes durante a guerra.
+            </p>
+
+            <p>
+                A adaptação final também trouxe uma animação renovada e novas cenas
+                para complementar a história do mangá. A produção continua sendo
+                feita pelo Studio Pierrot. :contentReference[oaicite:3]{index=3}
+            </p>
+
+            <p>
+                No geral, Bleach se destaca principalmente pelo seu estilo,
+                personagens, trilha sonora, poderes e pelas batalhas. Mesmo tendo
+                alguns problemas de ritmo na série original, continua sendo uma
+                das obras mais importantes do gênero.
+            </p>
+
+        </div>
+
+        <!-- LADO DIREITO -->
+        <div class="lado-direito">
+
+            <!-- OPINIÃO -->
+            <div class="opiniao">
+
+                <h2>Minha opinião</h2>
+
+                <p>
+                       Bleach pra mim é um dos melhores animes existentes, as lutas são muito mas muito boas, a historia é perfeita, tudo é perfeito
+                       os personagens, sua historia, o desenvolvimento dos personagens e das lutas é tudo bom nesse anime, impecavel.
+                </p>
+
+                <p>
+                       Mas o único problema é que como bleach tem muito tempo ele tem uma animação bem feita e ultrapassada, mas conforme as temporadas
+                       foi melhorando.
+                </p>
+
+            </div>
+
+            <!-- FOTOS -->
+            <div class="fotos">
+
+                <h2>Fotos</h2>
+
+                <img
+                    src="https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,quality=85,width=1200,height=675/catalog/crunchyroll/8ee28177b8ff7446c5b5539e3d57dfae.jpg"
+                    alt="Bleach"
+                >
+
+                <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrBKKeZkUVY6HcSIuntm3P4SMCefx2H8oCUwlB2m52uqOEXJ2MU7lxyPg&s=10"
+                    alt="Bleach"
+                >
+
+            </div>
+
+        </div>
+
+    </div>
+
+ <!-- COMENTÁRIOS -->
+
+<div class="comentarios">
+
+    <h2>💬 Comentários</h2>
+
+    <div class="form-comentario">
+
+        <input
+            type="text"
+            id="nomeComentario"
+            placeholder="Seu nome..."
+            maxlength="30"
+        >
+
+        <textarea
+            id="textoComentario"
+            placeholder="Digite seu comentário..."
+            maxlength="500"
+        ></textarea>
+
+        <button onclick="enviarComentario()">
+            Enviar
+        </button>
+
+    </div>
+
+    <div id="listaComentarios"></div>
+
+</div>
+
+<!-- MENSAGEM -->
+
+<div id="mensagem">
+
+    <h2>✅ Comentário enviado!</h2>
+
+    <p id="contador"></p>
+
+</div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

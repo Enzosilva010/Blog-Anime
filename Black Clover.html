@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Black Clover</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body class="black-clover-page">
+
+    <!-- Fundo escurecido -->
+    <div class="overlay"></div>
+
+    <!-- Cabeçalho -->
+    <header>
+
+        <button id="darkMode">🌙</button>
+
+    </header>
+
+    <!-- Botão voltar -->
+    <div class="menu">
+
+        <button onclick="window.location.href='novidades.html'">
+            NOVIDADES
+        </button>
+
+    </div>
+
+    <!-- Conteúdo principal -->
+    <div class="conteudo-anime">
+
+        <!-- ESQUERDA -->
+        <div class="resumo-temporada">
+
+            <h2>O que vai acontecer na 2ª temporada?</h2>
+
+            <p>
+                Após o intenso confronto contra o Olho do Sol da Meia-Noite, Asta e os
+                Touros Negros entram em uma nova fase da história. O Reino Clover vive
+                um período de reconstrução, mas uma ameaça muito maior começa a surgir
+                nas sombras.
+            </p>
+
+            <p>
+                O foco da nova temporada será o Reino Spade, uma nação dominada pela
+                Tríade Negra, composta por Dante Zogratis, Vanica Zogratis e Zenon
+                Zogratis. Cada um deles possui um contrato com demônios extremamente
+                poderosos, tornando-se os maiores inimigos já enfrentados pelos
+                Cavaleiros Mágicos.
+            </p>
+
+            <p>
+                Enquanto isso, Asta inicia um treinamento para dominar completamente sua
+                Anti-Magia e aprender a utilizar o poder de Liebe, o demônio que vive
+                dentro de seu grimório de cinco folhas. Ao mesmo tempo, Yuno descobre
+                detalhes surpreendentes sobre sua verdadeira origem e sua ligação com o
+                Reino Spade.
+            </p>
+
+            <p>
+                Além do crescimento de Asta e Yuno, diversos Capitães dos Cavaleiros
+                Mágicos também recebem destaque. Yami Sukehiro, Nozel Silva, Fuegoleon,
+                Mereoleona, Charlotte e Jack enfrentam batalhas extremamente difíceis,
+                mostrando o verdadeiro nível dos guerreiros mais fortes do Reino Clover.
+            </p>
+
+            <p>
+                A temporada também apresenta o treinamento no Reino Heart, onde Asta,
+                Noelle, Luck, Mimosa e outros personagens aprendem novas técnicas para
+                aumentar seus poderes antes da guerra contra o Reino Spade. Esse período
+                de treinamento será fundamental para enfrentar os inimigos que utilizam
+                o poder dos demônios.
+            </p>
+
+            <p>
+                Outro ponto importante será a evolução de Noelle Silva, que continua
+                superando seus próprios limites para proteger seus amigos e provar sua
+                força. A rivalidade entre Asta e Yuno também cresce, mas continua sendo
+                baseada no respeito e no desejo de ambos de se tornarem o próximo Rei
+                Mago.
+            </p>
+
+            <p>
+                A expectativa é que essa nova fase de Black Clover entregue algumas das
+                melhores lutas do anime, revelações importantes sobre os demônios e um
+                arco muito mais sombrio do que os anteriores.
+            </p>
+
+             <p>
+                <b>Nome oficial:</b> Black Clover
+            </p>
+
+            <p>
+                <b>Data de estreia:</b> Outubro de 2026.
+            </p>
+
+        </div>
+
+        <!-- LADO DIREITO -->
+        <div class="lado-direito">
+
+            <!-- MINHA OPINIÃO -->
+            <div class="opiniao">
+
+                <h2>Minha opinião</h2>
+
+                <p>
+                    Na minha opinião, essa é a melhor temporada do anime, onde o Asta
+                    acaba descobrindo coisas novas do seu poder, outros personagens
+                    tendo mais destaques e aparições, a batalha contra a Tríade Negra
+                    que no final acaba trazendo outros vilões também, com lutas
+                    emocionantes e muito boas. A história perfeita também, a
+                    profundidade da Megicula e a mãe da Noelle também, esta temporada
+                    promete muito.
+                </p>
+
+                <p>
+                    Com a nova animação que o autor prometeu nessa temporada tem tudo
+                    para ser um dos melhores animes do ano lançado, principalmente pelos
+                    confrontos contra a Tríade Negra e pelos momentos envolvendo os
+                    Touros Negros.
+                </p>
+
+            </div>
+
+            <!-- FOTOS -->
+            <div class="fotos">
+
+                <h2>Fotos</h2>
+
+                <img
+                    src="https://i.redd.it/kybcy97q90q81.jpg"
+                    alt="Asta e Yuno - Black Clover"
+                >
+
+                <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZRKzTfpIV1plB-lckDLqY2erwRNFrxlxNXAt923_EGYpb30sbflL2llWF&s=10"
+                    alt="Tríade Negra - Black Clover"
+                >
+
+            </div>
+
+        </div>
+
+    </div>
+
+<!-- COMENTÁRIOS -->
+
+<div class="comentarios">
+
+    <h2>💬 Comentários</h2>
+
+    <div class="form-comentario">
+
+        <input
+            type="text"
+            id="nomeComentario"
+            placeholder="Seu nome..."
+            maxlength="30"
+        >
+
+        <textarea
+            id="textoComentario"
+            placeholder="Digite seu comentário..."
+            maxlength="500"
+        ></textarea>
+
+        <button onclick="enviarComentario()">
+            Enviar
+        </button>
+
+    </div>
+
+    <div id="listaComentarios"></div>
+
+</div>
+
+<!-- MENSAGEM -->
+
+<div id="mensagem">
+
+    <h2>✅ Comentário enviado!</h2>
+
+    <p id="contador"></p>
+
+</div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

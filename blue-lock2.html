@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Blue Lock - 3ª Temporada</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body class="blue-lock-page">
+
+    <!-- Fundo escurecido -->
+    <div class="overlay"></div>
+
+    <!-- Cabeçalho -->
+    <header>
+
+        <button id="darkMode">🌙</button>
+
+    </header>
+
+    <!-- Botão voltar -->
+    <div class="menu">
+
+        <button onclick="window.location.href='novidades.html'">
+            NOVIDADES
+        </button>
+
+    </div>
+
+    <!-- Conteúdo principal -->
+    <div class="conteudo-anime">
+
+        <!-- ESQUERDA -->
+        <div class="resumo-temporada">
+
+            <h2>O que vai acontecer na 3ª temporada?</h2>
+
+            <p>
+                Após a intensa batalha contra a Seleção Japonesa Sub-20, Isagi e os
+                outros jogadores de Blue Lock entram em uma nova etapa de sua jornada.
+                Agora, o objetivo é enfrentar jogadores de nível mundial e provar quem
+                realmente possui o maior ego dentro de campo.
+            </p>
+
+            <p>
+                A nova temporada será focada na Neo Egoist League, uma competição criada
+                para desenvolver os jogadores de Blue Lock através de confrontos contra
+                clubes de diferentes países. Cada jogador precisará escolher um caminho
+                para evoluir suas habilidades e aumentar seu valor.
+            </p>
+
+            <p>
+                Isagi segue buscando maneiras de melhorar sua visão de jogo e sua
+                capacidade de marcar gols. Depois de tudo que aconteceu na partida
+                contra o Japão Sub-20, ele passa a ser reconhecido como um dos jogadores
+                mais promissores do projeto.
+            </p>
+
+            <p>
+                Um dos maiores desafios de Isagi será Michael Kaiser, o atacante do
+                Bastard München. Kaiser é um dos jogadores mais talentosos da competição
+                e possui um enorme ego, tornando-se um dos principais rivais de Isagi.
+            </p>
+
+            <p>
+                Além de Kaiser, outros jogadores importantes terão grande destaque,
+                incluindo Rin Itoshi, Shidou Ryusei, Bachira, Chigiri, Barou e muitos
+                outros jogadores que continuam buscando evoluir e superar seus próprios
+                limites.
+            </p>
+
+            <p>
+                A Neo Egoist League também coloca os jogadores ao lado de grandes
+                profissionais e treinadores, permitindo que eles aprendam diferentes
+                estilos de futebol. Cada partida será uma oportunidade para demonstrar
+                suas habilidades e aumentar seu valor.
+            </p>
+
+            <p>
+                O principal objetivo de Isagi continuará sendo se tornar o melhor
+                atacante do mundo. Para isso, ele terá que superar seus rivais, entender
+                novas formas de jogar e descobrir até onde seu próprio ego pode chegar.
+            </p>
+
+            <p>
+                <b>Nome oficial:</b> Blue Lock: Neo Egoist League
+            </p>
+
+            <p>
+                <b>Data de estreia:</b> Ainda não há uma data oficial confirmada.
+            </p>
+
+        </div>
+
+        <!-- LADO DIREITO -->
+        <div class="lado-direito">
+
+            <!-- MINHA OPINIÃO -->
+            <div class="opiniao">
+
+                <h2>Minha opinião</h2>
+
+                <p>
+                        Em minh apinião a terceira temporada de blue lock será algo muito legal e muito aguardado, pois ele foge um pouco da ideologia
+                    de criar o melhor atacante(entre muitas aspas kkkk) e acaba indo pra Neo Egoist League, onde vários personagens muito legais 
+                    vão aparecer lá, além de desenvolvimentos de personagens bem apagados, com um "leilão" de jogadores
+                    eu achei bem legal quando li no mangá.
+
+                </p>
+
+                <p>
+                        O esperado pra essa estreia é uma animação minimamente decente, já que as animações das outras temporadas deixaram a desejar
+                    com uma animação horrível, bom vamos aguardar pra saber kkkk.
+
+                </p>
+
+            </div>
+
+            <!-- FOTOS -->
+            <div class="fotos">
+
+                <h2>Fotos</h2>
+
+                <img
+                    src="https://pbs.twimg.com/media/GGjofxUXcAACvev.jpg"
+                    alt="Isagi - Blue Lock"
+                >
+
+                <img
+                    src="https://preview.redd.it/manga-coloring-from-blue-lock-chapter-222-spoiler-v0-46szux6q869b1.jpg?auto=webp&s=619e17d064852e22a7a225162a3b0aacba69a527"
+                    alt="Michael Kaiser - Blue Lock"
+                >
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- COMENTÁRIOS -->
+
+<div class="comentarios">
+
+    <h2>💬 Comentários</h2>
+
+    <div class="form-comentario">
+
+        <input
+            type="text"
+            id="nomeComentario"
+            placeholder="Seu nome..."
+            maxlength="30"
+        >
+
+        <textarea
+            id="textoComentario"
+            placeholder="Digite seu comentário..."
+            maxlength="500"
+        ></textarea>
+
+        <button onclick="enviarComentario()">
+            Enviar
+        </button>
+
+    </div>
+
+    <div id="listaComentarios"></div>
+
+</div>
+
+<!-- MENSAGEM -->
+
+<div id="mensagem">
+
+    <h2>✅ Comentário enviado!</h2>
+
+    <p id="contador"></p>
+
+</div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

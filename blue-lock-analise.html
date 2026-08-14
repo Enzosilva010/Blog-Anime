@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Análise - Blue Lock</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body class="blue-lock-analise-page">
+
+    <div class="overlay"></div>
+
+    <!-- Cabeçalho -->
+    <header>
+
+        <button id="darkMode">🌙</button>
+
+    </header>
+
+    <!-- Botão voltar -->
+    <div class="menu">
+
+        <button onclick="window.location.href='analises.html'">
+            ANÁLISES
+        </button>
+
+    </div>
+
+    <!-- Conteúdo principal -->
+    <div class="conteudo-anime">
+
+        <!-- ESQUERDA -->
+        <div class="resumo-temporada">
+
+            <h2>Análise de Blue Lock</h2>
+
+            <p>
+                Blue Lock acompanha Yoichi Isagi, um jovem atacante que recebe a
+                oportunidade de participar de um projeto criado para encontrar o
+                melhor atacante do Japão. O objetivo do projeto é formar um jogador
+                capaz de levar a seleção japonesa ao topo do futebol mundial.
+            </p>
+
+            <p>
+                Diferente de outros animes de esporte, Blue Lock coloca o ego dos
+                jogadores no centro da história. Os participantes precisam aprender
+                a confiar em suas próprias habilidades e encontrar uma forma de
+                superar os adversários.
+            </p>
+
+            <p>
+                Isagi começa sua jornada sem ser considerado o melhor jogador do
+                projeto. Porém, ele possui uma grande capacidade de observar o
+                campo e entender as movimentações dos outros jogadores.
+            </p>
+
+            <p>
+                Conforme as partidas avançam, Isagi começa a desenvolver cada vez
+                mais sua visão de jogo. Ele aprende a identificar espaços, prever
+                movimentos e utilizar seus companheiros para criar oportunidades.
+            </p>
+
+            <p>
+                Um dos maiores pontos positivos de Blue Lock é justamente a
+                quantidade de personagens diferentes. Bachira, Nagi, Rin, Barou,
+                Chigiri, Reo, Kunigami e vários outros possuem estilos de jogo
+                completamente diferentes.
+            </p>
+
+            <p>
+                Cada personagem possui uma habilidade ou característica que o
+                diferencia dos demais. Isso faz com que as partidas sejam muito
+                mais imprevisíveis, já que qualquer jogador pode mudar o resultado
+                de uma partida.
+            </p>
+
+            <p>
+                A rivalidade entre Isagi e os outros jogadores também é muito
+                importante para a evolução do protagonista. Em vez de simplesmente
+                tentar vencer os adversários, Isagi começa a analisar cada um deles
+                para descobrir como pode superar suas habilidades.
+            </p>
+
+            <p>
+                Conforme a história avança, o projeto Blue Lock começa a envolver
+                jogadores cada vez mais fortes. A competição deixa de ser apenas
+                entre os participantes e passa a colocar os jogadores diante de
+                atletas de nível internacional.
+            </p>
+
+            <p>
+                A obra também trabalha bastante com a ideia de que um atacante
+                precisa ter confiança para decidir uma partida. O jogador precisa
+                estar disposto a assumir a responsabilidade pelo momento decisivo
+                em vez de simplesmente esperar que outro companheiro resolva.
+            </p>
+
+            <p>
+                No geral, Blue Lock consegue transformar o futebol em uma competição
+                cheia de rivalidades, estratégias e evolução individual. A obra se
+                destaca principalmente pela intensidade das partidas e pela forma
+                como cada personagem tenta encontrar seu próprio estilo de jogo.
+            </p>
+
+        </div>
+
+        <!-- LADO DIREITO -->
+        <div class="lado-direito">
+
+            <!-- OPINIÃO -->
+            <div class="opiniao">
+
+                <h2>Minha opinião</h2>
+
+                <p>
+                    Mano, Blue Lock é muito bom. O que mais gosto é que não fica
+                    sendo só aquele futebol normal, os caras literalmente entram
+                    em campo querendo destruir o outro jogador e mostrar que são
+                    melhores.
+                </p>
+
+                <p>
+                    O Isagi também é muito daora porque ele não começa sendo um
+                    monstro igual alguns personagens. Você vai vendo ele aprender,
+                    evoluir e começar a entender cada vez mais o jogo. E as
+                    rivalidades deixam tudo muito mais insano. ⚽🔥
+                </p>
+
+            </div>
+
+            <!-- FOTOS -->
+            <div class="fotos">
+
+                <h2>Fotos</h2>
+
+                <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiqmwqrDw9TH-SvA9ptpGfo3EN9jXtA4TQb4Ycf-UFb8-ekR75v87bHZA&s=10"
+                    alt="Blue Lock"
+                >
+
+                <img
+                    src="https://a.storyblok.com/f/178900/940x529/75b0f1a726/blue-lock-isagi-nagi-rin.jpg"
+                    alt="Blue Lock - Isagi, Nagi e Rin"
+                >
+
+            </div>
+
+        </div>
+
+    </div>
+
+  <!-- COMENTÁRIOS -->
+
+<div class="comentarios">
+
+    <h2>💬 Comentários</h2>
+
+    <div class="form-comentario">
+
+        <input
+            type="text"
+            id="nomeComentario"
+            placeholder="Seu nome..."
+            maxlength="30"
+        >
+
+        <textarea
+            id="textoComentario"
+            placeholder="Digite seu comentário..."
+            maxlength="500"
+        ></textarea>
+
+        <button onclick="enviarComentario()">
+            Enviar
+        </button>
+
+    </div>
+
+    <div id="listaComentarios"></div>
+
+</div>
+
+<!-- MENSAGEM -->
+
+<div id="mensagem">
+
+    <h2>✅ Comentário enviado!</h2>
+
+    <p id="contador"></p>
+
+</div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

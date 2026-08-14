@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Shangri-La Frontier</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body class="shangri-la-page">
+
+    <!-- Fundo escurecido -->
+    <div class="overlay"></div>
+
+    <!-- Cabeçalho -->
+    <header>
+
+        <button id="darkMode">🌙</button>
+
+    </header>
+
+    <!-- Botão voltar -->
+    <div class="menu">
+
+        <button onclick="window.location.href='novidades.html'">
+            NOVIDADES
+        </button>
+
+    </div>
+
+    <!-- Conteúdo principal -->
+    <div class="conteudo-anime">
+
+        <!-- ESQUERDA -->
+        <div class="resumo-temporada">
+
+            <h2>O que vai acontecer na 3ª temporada?</h2>
+
+            <p>
+                Depois dos acontecimentos das temporadas anteriores, Rakuro Hizutome,
+                conhecido como Sunraku dentro de Shangri-La Frontier, continua sua
+                jornada em busca de novos desafios e inimigos cada vez mais poderosos.
+            </p>
+
+            <p>
+                Após enfrentar diversos monstros únicos e descobrir mais sobre os
+                mistérios do jogo, Sunraku passa a se envolver ainda mais com os
+                acontecimentos de Shangri-La Frontier.
+            </p>
+
+            <p>
+                A nova temporada deve continuar explorando o enorme mundo do jogo,
+                apresentando novas áreas, inimigos, equipamentos e desafios que irão
+                colocar as habilidades de Sunraku à prova.
+            </p>
+
+            <p>
+                Sunraku também continuará contando com seus companheiros, como
+                Arthur Pencilgon e OiKatzo. Juntos, eles enfrentarão desafios cada vez
+                mais difíceis enquanto tentam descobrir os segredos escondidos dentro
+                do jogo.
+            </p>
+
+            <p>
+                Um dos maiores destaques da história continua sendo o confronto contra
+                os chamados Monstros Únicos. Essas criaturas possuem características
+                especiais e representam alguns dos maiores desafios encontrados pelos
+                jogadores.
+            </p>
+
+            <p>
+                Além das batalhas, a temporada também deve continuar desenvolvendo a
+                relação entre os personagens e mostrando novas estratégias utilizadas
+                pelos jogadores para superar os desafios do jogo.
+            </p>
+
+            <p>
+                Sunraku continuará buscando adversários capazes de proporcionar uma
+                verdadeira sensação de desafio, enquanto sua reputação dentro de
+                Shangri-La Frontier cresce cada vez mais.
+            </p>
+
+            <p>
+                <b>>Nome oficial:</b> Shangri-La Frontier
+            </p>
+
+            <p>
+                <b>Data de Estreia:</b> Janeiro de 2027.
+            </p>
+
+        </div>
+
+        <!-- LADO DIREITO -->
+        <div class="lado-direito">
+
+            <!-- MINHA OPINIÃO -->
+            <div class="opiniao">
+
+                <h2>Minha opinião</h2>
+
+                <p>
+                        Em minha opinião está tempora está a prometer muito, a historia que a segunda temporada deixou
+                    pra terceira completar é muito legal, seu contexto, o desenvolvimento que o arco vai ter também sobre a 
+                     GGC e os torneio virtuais de jogos, isso tudo promete estou ancioso.
+                </p>
+
+                <p>
+                        Se a animação continuar a mesma das temporadas anteriores, os dubladores também esta temporada em minha opinião tem
+                        de tudo para ser a melhor já criada(To bem ansioso hehe).
+                </p>
+
+            </div>
+
+            <!-- FOTOS -->
+            <div class="fotos">
+
+                <h2>Fotos</h2>
+
+                <img
+                    src="https://www.omegascopio.com.br/wp-content/uploads/2023/03/shangri-la-frontier.jpg"
+                    alt="Shangri-La Frontier"
+                >
+
+                <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR72zwSdLEsj_RvzkQnJ3IN_bFCJg6yI9nyyRanIyM4KVgTOiKPqLilAq7w&s=10"
+                    alt="Shangri-La Frontier"
+                >
+
+            </div>
+
+        </div>
+
+    </div>
+
+  <!-- COMENTÁRIOS -->
+
+<div class="comentarios">
+
+    <h2>💬 Comentários</h2>
+
+    <div class="form-comentario">
+
+        <input
+            type="text"
+            id="nomeComentario"
+            placeholder="Seu nome..."
+            maxlength="30"
+        >
+
+        <textarea
+            id="textoComentario"
+            placeholder="Digite seu comentário..."
+            maxlength="500"
+        ></textarea>
+
+        <button onclick="enviarComentario()">
+            Enviar
+        </button>
+
+    </div>
+
+    <div id="listaComentarios"></div>
+
+</div>
+
+<!-- MENSAGEM -->
+
+<div id="mensagem">
+
+    <h2>✅ Comentário enviado!</h2>
+
+    <p id="contador"></p>
+
+</div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

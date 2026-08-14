@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Análise - Haikyuu!!</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body class="haikyuu-analise-page">
+
+    <div class="overlay"></div>
+
+    <!-- Cabeçalho -->
+    <header>
+
+        <button id="darkMode">🌙</button>
+
+    </header>
+
+    <!-- Botão voltar -->
+    <div class="menu">
+
+        <button onclick="window.location.href='analises.html'">
+            ANÁLISES
+        </button>
+
+    </div>
+
+    <!-- Conteúdo principal -->
+    <div class="conteudo-anime">
+
+        <!-- ESQUERDA -->
+        <div class="resumo-temporada">
+
+            <h2>Análise de Haikyuu!!</h2>
+
+            <p>
+                Haikyuu!! acompanha Shoyo Hinata, um garoto apaixonado por vôlei que
+                decide entrar para o time de sua escola depois de assistir a uma
+                partida do lendário jogador conhecido como "Pequeno Gigante".
+            </p>
+
+            <p>
+                Mesmo sendo baixo para o esporte, Hinata possui uma enorme vontade
+                de jogar e uma capacidade impressionante de saltar. Depois de
+                entrar no Karasuno, ele começa a desenvolver suas habilidades e
+                aprende que talento sozinho não é suficiente para vencer.
+            </p>
+
+            <p>
+                Um dos maiores pontos fortes de Haikyuu!! é o desenvolvimento dos
+                personagens. Hinata, Kageyama, Tsukishima, Nishinoya, Tanaka e
+                os outros integrantes do Karasuno possuem personalidades e estilos
+                de jogo diferentes.
+            </p>
+
+            <p>
+                A relação entre Hinata e Kageyama também é uma das partes mais
+                importantes da história. No começo, os dois possuem uma relação
+                bastante complicada, mas acabam aprendendo a trabalhar juntos e
+                desenvolvem uma das combinações mais perigosas da equipe.
+            </p>
+
+            <p>
+                As partidas são outro grande destaque. O anime consegue transformar
+                um simples jogo de vôlei em confrontos extremamente emocionantes,
+                mostrando não apenas os pontos marcados, mas também as estratégias,
+                erros e decisões dos jogadores.
+            </p>
+
+            <p>
+                Conforme a história avança, o Karasuno enfrenta equipes cada vez
+                mais fortes. Cada adversário possui seu próprio estilo de jogo,
+                fazendo com que os jogadores precisem se adaptar constantemente.
+            </p>
+
+            <p>
+                Outro ponto muito interessante é que Haikyuu!! não trata os
+                adversários simplesmente como vilões. Muitos deles também possuem
+                seus próprios objetivos, dificuldades e histórias, fazendo com que
+                o público consiga torcer por diferentes equipes.
+            </p>
+
+            <p>
+                A evolução de Hinata também é muito importante. Ele começa como
+                alguém que possui muita energia e vontade de jogar, mas pouco
+                conhecimento técnico. Com o passar do tempo, aprende novas técnicas,
+                melhora sua percepção da quadra e passa a entender melhor o esporte.
+            </p>
+
+            <p>
+                O anime também mostra que o vôlei depende muito mais do que apenas
+                um jogador. Cada posição possui uma função importante e uma equipe
+                precisa trabalhar em conjunto para conseguir alcançar seus objetivos.
+            </p>
+
+            <p>
+                No geral, Haikyuu!! consegue misturar esporte, comédia, rivalidade
+                e desenvolvimento de personagens de uma maneira muito equilibrada.
+                É uma obra que pode agradar até mesmo quem nunca teve interesse
+                por vôlei.
+            </p>
+
+        </div>
+
+        <!-- LADO DIREITO -->
+        <div class="lado-direito">
+
+            <!-- OPINIÃO -->
+            <div class="opiniao">
+
+                <h2>Minha opinião</h2>
+
+                <p>
+                    Haikyuu é um anime de volêi excelente na minha opinião e meu segundo anime favorito hehehe, tipo a historia incrivel, os
+                    personagens são bons, Hinata e Kageyama que são rivais e uma das melhores duplas mais recentes, cada arco com sua diversidade
+                    de conteúdo diferente, com criatividade e narrativas perfeitas muito bom.
+                </p>
+
+                <p>
+                       O único problema é a animação que é média, mas no filme deles novo tende a melhorar, e estou ancioso com isso hehe.
+                </p>
+
+            </div>
+
+            <!-- FOTOS -->
+            <div class="fotos">
+
+                <h2>Fotos</h2>
+
+                <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQy45pTOJzTqbKOuIGDUpZbE21xOqnIpbLoH6Yrn6tGLDtLVfj2yZ4ih0g&s=10"
+                    alt="Haikyuu!!"
+                >
+
+                <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDCW_LXXokJb2_yFKznJYILQFYrz3EdnXAeiIY3SkdNiPMq35mMHbLEhM&s=10"
+                    alt="Haikyuu!!"
+                >
+
+            </div>
+
+        </div>
+
+    </div>
+
+ <!-- COMENTÁRIOS -->
+
+<div class="comentarios">
+
+    <h2>💬 Comentários</h2>
+
+    <div class="form-comentario">
+
+        <input
+            type="text"
+            id="nomeComentario"
+            placeholder="Seu nome..."
+            maxlength="30"
+        >
+
+        <textarea
+            id="textoComentario"
+            placeholder="Digite seu comentário..."
+            maxlength="500"
+        ></textarea>
+
+        <button onclick="enviarComentario()">
+            Enviar
+        </button>
+
+    </div>
+
+    <div id="listaComentarios"></div>
+
+</div>
+
+<!-- MENSAGEM -->
+
+<div id="mensagem">
+
+    <h2>✅ Comentário enviado!</h2>
+
+    <p id="contador"></p>
+
+</div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
